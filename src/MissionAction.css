@@ -1,0 +1,21 @@
+.MissionAction-button {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  margin-bottom: 10px;
+  color: white;
+  flex-direction: column;
+  background-color: transparent;
+  transition: transform 0.2s;
+}
+
+.MissionAction-button:hover {
+  background-color: grey;
+  transform: scale(1.1);
+}
+.MissionAction-button:last-child {
+  margin-right: 0;
+}

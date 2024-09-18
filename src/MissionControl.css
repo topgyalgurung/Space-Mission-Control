@@ -1,0 +1,13 @@
+.MissionControl-filter {
+  margin: 20px 0;
+}
+.MissionControl-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  margin-bottom: 20px;
+}
+.MissionControl-card:last-child {
+  margin-bottom: 20px;
+}
